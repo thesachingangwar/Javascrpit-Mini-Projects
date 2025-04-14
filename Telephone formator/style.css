@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: lightcyan;
+    border-bottom: 1px blanchedalmond;
+    padding: 10px 10px;
+    border-bottom: 1px black dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+
+
+}
+
+.main-title {
+    font-size: 2rem;
+    align-items: center;
+    display: inline-block;
+    justify-content: start;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    flex-direction: column;
+
+}
+
+.app {
+    width: 40vw;
+    height: 50vh;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+body input {
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
