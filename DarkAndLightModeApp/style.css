@@ -1,0 +1,29 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+.box-container{
+    padding: 60px 30px;
+    border: 2px solid blue;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 80px;
+}
+
+
+body.dark  {
+    background-color: black;
+    color: aliceblue;
+}
+
+.box-container.dark {
+    background-color: black;
+    color: aliceblue;
+}
