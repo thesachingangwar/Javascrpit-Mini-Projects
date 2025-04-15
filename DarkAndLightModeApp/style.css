@@ -4,6 +4,28 @@
 }
 
 
+.nav {
+    background-color: lightcyan;
+    border-bottom: 1px blanchedalmond;
+    padding: 10px 10px;
+    border-bottom: 1px black dashed;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.main-title {
+    font-size: 2rem;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+
+
 .box-container{
     padding: 60px 30px;
     border: 2px solid blue;
@@ -14,9 +36,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px 80px;
 }
-
 
 body.dark  {
     background-color: black;
